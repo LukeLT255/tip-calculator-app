@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js" defer></script>
+
+
+</head>
+<body>
+
+  
+  <h1>SPLI</h1>
+  <h1>TTER</h1>
+
+  <article class="splitter">
+    <div>
+      <h2>Bill</h2>
+      <input type="text" id="bill" name="bill">
+    </div>
+
+    <div>
+      <h2>Select Tip %</h2>
+      
+      <div class="tip-percents">
+        <button class="percent percent-active">5%</button>
+        <button class="percent">10%</button>
+        <button class="percent">15%</button>
+        <button class="percent">25%</button>
+        <button class="percent">50%</button>
+        <!-- <button class="percent custom">Custom</button> -->
+        <input type="text" class="percent" id="custom-tip" name="custom-tip" placeholder="Custom">
+      </div>
+    </div>
+
+    <div>
+      <h2>Number of People</h2>
+      <input type="text" id="people" name="people">
+    </div>
+
+    <div class="totals">
+      <div class="total-tip">
+        <div class="tip-text">
+          <h2>Tip Amount</h2>
+          <h3>/ person</h3>
+        </div>
+        <p class="tip-amount">$0.00</p>
+      </div>
+      
+      <div class="total-per-person">
+        <div class="tip-text">
+          <h2>Total</h2>
+          <h3>/ person</h3>
+        </div>
+        <p class="tip-amount">$0.00</p>
+      </div>
+    
+      <button class="reset">RESET</button>
+    </div>
+  </article>
+  
+  
+</body>
+</html>
